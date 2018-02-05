@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WildInfor</title>
+  </head>
+  <body>
+    <!-- Header and navbar -->
+    <header>
+      <a href="#home"></a>
+      <h1>WildInfor</h1>
+      <nav>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#about_us">About us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- InforZoom sells these Products -->
+    <div>
+      <a name="products"></a>
+      <h2>Products</h2>
+      <div class="item1">
+        <img src="http://via.placeholder.com/200x200" alt="computer 1">
+        <p><a href="#">Bull Computer</a></p>
+        <p>$ 1300.00</p>
+      </div>
+      <div class="item2">
+        <img src="http://via.placeholder.com/200x200" alt="computer 2">
+        <p><a href="#">Eagle Computer</a></p>
+        <p>$ 2300.00</p>
+      </div>
+      <div class="item3">
+        <img src="http://via.placeholder.com/200x200" alt="computer 3">
+        <p><a href="#">Mantis Computer</a></p>
+        <p>$ 3300.00</p>
+      </div>
+      <div class="item4">
+        <img src="http://via.placeholder.com/200x200" alt="computer 4">
+        <p><a href="#">Flea Computer</a></p>
+        <p>$ 1200.00</p>
+      </div>
+      <div class="item5">
+        <img src="http://via.placeholder.com/200x200" alt="computer 5">
+        <p><a href="#">Hypo Computer</a></p>
+        <p>$ 1900.00</p>
+      </div>
+      <div class="item6">
+        <img src="http://via.placeholder.com/200x200" alt="computer 6">
+        <p><a href="#">Shrak Computer</a></p>
+        <p>$ 2100.00</p>
+      </div>
+    </div>
+
+    <!-- If customer wants to buy online or recieve our newsletter -->
+    <div>
+      <a name="register"></a>
+      <h2>Register</h2>
+      <form class="" action="index.html" method="get">
+        <fieldset>
+          Last name: <input type="text" name="lastname" placeholder="type your last name" size="40" required>
+          First name: <input type="text" name="firstname" placeholder="type your first name" required><br>
+          Address: <textarea type="text" name="address" placeholder="type your address" rows="3" cols="40"></textarea><br>
+          ZIP/Code: <input type="text" name="zip" placeholder="your ZIP" maxlength="8" size="8">
+          City:
+          <select name="city">
+      			<option value="berlin" >Berlin</option>
+            <option value="dresden">Dresden</option>
+      			<option value="frankfurt">Frankfurt</option>
+            <option value="leipzig">Leipzig</option>
+            <option value="hamburg">Hamburg</option>
+            <option value="munich">Munich</option>
+            <option value="stuttgart">Stuttgart</option>
+            <option value="other">Other</option>
+      		</select>
+          <input type="text" name="city" placeholder="other city" maxlength="8" size="8">
+          Birthday: <input type="date" name="bday" min="2000-01-01"><br>
+        </fieldset>
+        <fieldset>
+          <p>Computers: </p>
+        	<input type="number" name="bull" value="0" min="0" max="20"> Bull<br>
+        	<input type="number" name="eagle" value="0" min="0" max="20"> Eagle<br>
+          <input type="number" name="mantis" value="0" min="0" max="20"> Mantis<br>
+        	<input type="number" name="flea" value="0" min="0" max="20"> Flea<br>
+          <input type="number" name="hypo" value="0" min="0" max="20"> Hypo<br>
+        	<input type="number" name="shrak" value="0" min="0" max="20"> Shrak
+        </fieldset>
+        <fieldset>
+          <p>
+            E-mail: <input type="email" name="email" size="40"><br>
+            Password: <input type="password" name="password" maxlength="10" minlength="4" size="10">
+          </p>
+          <input type="submit" value="Register">
+          <input type="reset">
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- how company is structured, mission, thoughts -->
+    <div>
+      <a name="about_us"></a>
+      <h2>About us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <!-- Web-developer information -->
+    <footer>
+      <span>
+        &copy; Murilo Miranda Nüßlein 2018
+      </span>
+      <span>
+        <a name="home" href="">Back to top</a>
+      </span>
+    </footer>
+  </body>
+</html>
