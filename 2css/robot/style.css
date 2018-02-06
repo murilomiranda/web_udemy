@@ -14,7 +14,7 @@ h1 {
 .right_arm,
 .left_leg,
 .right_leg {
-	 background-color: #5f93e8;
+	 background-color: #2b4b6f;
 }
 
 .head {
@@ -55,10 +55,23 @@ h1 {
 	margin-left: 10px;
 }
 
+.right_arm:hover{
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
 .torso {
 	width: 200px;
 	height: 200px;
 	border-radius: 0 0 50px 50px;
+}
+
+.torso:hover {
+	transform: scale(1.05);
+	background-color: #aa6039;
 }
 
 .lower_body {
@@ -81,10 +94,10 @@ h1 {
 
 .left_leg:hover {
 	-webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 
 .right_leg {
