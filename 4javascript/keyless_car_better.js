@@ -40,7 +40,7 @@ var checkDriverAge2 = function(){
 	}
 }
 
-checkDriverAge2(92);
+checkDriverAge2();
 
 //BONUS: Instead of using the prompt. Now, only use the return keyword and make the checkDriverAge() function accept an argument of age, so that if you enter:
 //checkDriverAge(92);
